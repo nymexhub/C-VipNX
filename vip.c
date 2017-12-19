@@ -1,6 +1,6 @@
 /*
 
-DEveloped by Felipe Alfonso Gonzalez 
+Developed by Felipe Alfonso Gonzalez 
 Soft Engr. / Dev. 
 felipe.dev.engr.js@gmail.com
 -------------------------------------------
