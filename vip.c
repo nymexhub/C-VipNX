@@ -1,4 +1,10 @@
 /*
+
+DEveloped by Felipe Alfonso Gonzalez 
+Soft Engr. / Dev. 
+felipe.dev.engr.js@gmail.com
+-------------------------------------------
+
  * gunzip vip.c.gz
  * gcc -o vip vip.c (compilation)
  * su
