@@ -1,6 +1,6 @@
 # shell-vip-deb
 
-Developeed by Software Engr. / Developer Felipe Alfonso González - felipe.dev.engr.js@gmail.com
+Developed by Software Engr. / Developer Felipe Alfonso González - felipe.dev.engr.js@gmail.com
 
 #instructions
 
