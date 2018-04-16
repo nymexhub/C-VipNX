@@ -1,5 +1,9 @@
 # Shell Vip Utility written in C for *NX Systems
 
+Simple: Vip shell to avoid usage of sudo
+
+#
+
 Crafted by Software Engr. / Developer Felipe Alfonso González - felipe@nodeio.us
 
 #instructions
