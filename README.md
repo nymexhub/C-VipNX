@@ -1,6 +1,6 @@
-# ShellVip-DebLnx
+# Shell Vip Utility written in C for *NX Systems
 
-Developed by Software Engr. / Developer Felipe Alfonso González - felipe@nodeio.us
+Crafted by Software Engr. / Developer Felipe Alfonso González - felipe@nodeio.us
 
 #instructions
 
