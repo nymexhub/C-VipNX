@@ -1,6 +1,6 @@
-# shell-vip-deb
+# ShellVip-DebLnx
 
-Developed by Software Engr. / Developer Felipe Alfonso González - felipe.dev.engr.js@gmail.com
+Developed by Software Engr. / Developer Felipe Alfonso González - felipe@nodeio.us
 
 #instructions
 
