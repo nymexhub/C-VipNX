@@ -1,7 +1,7 @@
 /*
 
 Developed by Felipe Alfonso Gonzalez 
-Soft Engr. / Dev. 
+Software Engineer
 f.alfonso@res-ear.ch
 -------------------------------------------
 
