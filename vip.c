@@ -2,7 +2,7 @@
 
 Developed by Felipe Alfonso Gonzalez 
 Soft Engr. / Dev. 
-felipe.dev.engr.js@gmail.com
+f.alfonso@res-ear.ch
 -------------------------------------------
 
  * gunzip vip.c.gz
