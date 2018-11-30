@@ -4,7 +4,7 @@ Simple: Vip shell to avoid usage of sudo
 
 #
 
-Crafted / developed by Software Engineer - Felipe Alfonso González - f.alfonso@res-ear.ch
+Crafted / developed by Software craftsman - Felipe Alfonso González - f.alfonso@res-ear.ch
 
 #instructions
 
