@@ -22,7 +22,7 @@ char *arg[];
 	setuid(0);
 	setgid(1);
 
-	fprintf(stderr,"Comenzando Vip Shell ...\n" );
+	fprintf(stderr,"Starting Vip Shell ...\n" );
 	if( na < 2 )
 	{
 		if( (pid=fork()) == -1 )  {
