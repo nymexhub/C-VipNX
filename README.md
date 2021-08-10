@@ -38,4 +38,12 @@ vip     ALL=(ALL:ALL) ALL
 execute it as a user:
  sudo vip
  
+ 
+# Get involved! 
+
+Do you want to contribute in this small but nice project?
+mail me! f.alfonso@res-ear.ch
+Development is in the branch 'development'
+Stable version: 'master' branch 
+
 
