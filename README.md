@@ -8,6 +8,9 @@ Crafted / developed by Software Engineer - Felipe Alfonso González - f.alfonso@
 
 #instructions
 
+You need to install tcsh:
+in Debian GNU/Linux : sudo apt-get install tcsh
+
  | gunzip vip.c.gz
  
  | sudo gcc -o vip vip.c (compilation)
