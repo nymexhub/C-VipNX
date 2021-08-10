@@ -24,6 +24,10 @@ Crafted / developed by Software craftsman - Felipe Alfonso González - f.alfonso
 root    ALL=(ALL:ALL) ALL
  
 vip     ALL=(ALL:ALL) ALL
+
+then,
+execute as a user:
+ sudo vip
  
  | mv vip /usr/bin/
  
