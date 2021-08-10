@@ -39,7 +39,7 @@ execute it as a user:
  sudo vip
  
  
-# User privilege specification
+# Get involved! 
 
 Do you want to contribute in this small but nice project?
 mail me! f.alfonso@res-ear.ch
