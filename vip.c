@@ -6,6 +6,9 @@
  * mv vip /usr/bin/
  * exit
  * vip
+ * -------
+ * You need to install tcsh
+ *
  * */
 
 # include <stdio.h>
