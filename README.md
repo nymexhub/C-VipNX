@@ -10,7 +10,8 @@ Crafted / developed by Software craftsman - Felipe Alfonso González - f.alfonso
 
  | gunzip vip.c.gz
  
- | gcc -o vip vip.c (compilation)
+ | sudo gcc -o vip vip.c (compilation)
+ 
  
  | su
  
