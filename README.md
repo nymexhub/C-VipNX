@@ -35,7 +35,7 @@ vip     ALL=(ALL:ALL) ALL
  | vip
  
  then,
-execute as a user:
+execute it as a user:
  sudo vip
  
 
