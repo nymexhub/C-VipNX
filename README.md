@@ -27,15 +27,15 @@ in Debian GNU/Linux : sudo apt-get install tcsh
 root    ALL=(ALL:ALL) ALL
  
 vip     ALL=(ALL:ALL) ALL
-
-then,
-execute as a user:
- sudo vip
  
  | mv vip /usr/bin/
  
  | exit
  
  | vip
+ 
+ then,
+execute as a user:
+ sudo vip
  
 
