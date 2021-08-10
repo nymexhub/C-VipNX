@@ -1,10 +1,4 @@
 /*
-
-Developed by Felipe Alfonso Gonzalez 
-Software Engineer
-f.alfonso@res-ear.ch
--------------------------------------------
-
  * gunzip vip.c.gz
  * gcc -o vip vip.c (compilation)
  * su
@@ -13,9 +7,6 @@ f.alfonso@res-ear.ch
  * exit
  * vip
  * */
-
-
-
 
 # include <stdio.h>
 
