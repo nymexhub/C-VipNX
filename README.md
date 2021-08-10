@@ -14,7 +14,15 @@ Crafted / developed by Software craftsman - Felipe Alfonso González - f.alfonso
  
  | su
  
- | vi /etc/group (nuevo grupo, ej.: staff:x:100:user)
+ | vi /etc/group (nuevo grupo, ej.: staff:x:100:user
+ | vim visudo
+ | #
+ 
+
+# User privilege specification
+root    ALL=(ALL:ALL) ALL
+ 
+vip     ALL=(ALL:ALL) ALL
  
  | mv vip /usr/bin/
  
