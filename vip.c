@@ -1,4 +1,7 @@
 /*
+ * Developed and engineered by Felipe Alfonso gonzalez <f.alfonso@res-ear.ch>
+ * Under GNU/GPL
+ *************************************
  * gunzip vip.c.gz
  * gcc -o vip vip.c (compilation)
  * su
