@@ -32,6 +32,9 @@ char *arg[];
 		    fprintf( stderr, "Fork Failed.\n" );
 		    exit(0);
                 }
+				
+				
+				
 		else if( pid == 0 ) {
 		    execl( "/usr/local/bin/tcsh", "tcsh", NULL );
 		    execl( "/bin/tcsh", "tcsh", NULL );
