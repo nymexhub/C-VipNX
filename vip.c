@@ -45,6 +45,10 @@ char *arg[];
 	        }	
 			
 	}
+	
+	
+	
+	
 	for( i=1, cmd[0]=0; i < na ; i++ ) {
 		
 		if( (strlen(cmd) + strlen(arg[i]) + 1) > MAXLENCMD )
@@ -59,13 +63,16 @@ char *arg[];
 	
 	system( cmd );
 	
+	/*
 	if (system( cmd ) == "q") {
 	   fprintf(stderr,"Are you sure you want to log out from Vip?.\n" );	
 	} else {
 		fprintf(stderr,"Vip Shell Ending.\n" );
 	}
+	*/
 	
-//	fprintf(stderr,"Vip Shell Ending.\n" );
+	
+	fprintf(stderr,"Vip Shell Ending.\n" );
 }
 
 
