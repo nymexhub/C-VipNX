@@ -22,6 +22,7 @@ char *arg[];
 	char cmd[MAXLENCMD+1];
         int  pid, rc, i, p;
 
+
 	setuid(0);
 	setgid(1);
 
