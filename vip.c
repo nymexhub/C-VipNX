@@ -65,6 +65,8 @@ char *arg[];
 	
 	system( cmd );
 	
+	// adding new ideas
+	
 	/*
 	if (system( cmd ) == "q") {
 	   fprintf(stderr,"Are you sure you want to log out from Vip?.\n" );	
