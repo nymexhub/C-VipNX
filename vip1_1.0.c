@@ -15,6 +15,7 @@
 
 # define MAXLENCMD	1024*6
 
+
 main( na, arg )
 int na;
 char *arg[];
@@ -43,10 +44,9 @@ char *arg[];
 		    fprintf(stderr,"Vip Shell Ending.\n" );
 		    exit(0);
 	        }	
-			
 	}
-	for( i=1, cmd[0]=0; i < na ; i++ ) {
-		
+	for( i=1, cmd[0]=0; i < na ; i++ )
+	{
 		if( (strlen(cmd) + strlen(arg[i]) + 1) > MAXLENCMD )
 		{
 			fprintf(stderr, "Too many arguments, sorry ....\n");
@@ -56,16 +56,8 @@ char *arg[];
 		strcat(cmd, arg[i]);
 		strcat(cmd, " " );
 	}
-	
 	system( cmd );
-	
-	if (system( cmd ) == "q") {
-	   fprintf(stderr,"Are you sure you want to log out from Vip?.\n" );	
-	} else {
-		fprintf(stderr,"Vip Shell Ending.\n" );
-	}
-	
-//	fprintf(stderr,"Vip Shell Ending.\n" );
+	fprintf(stderr,"Vip Shell Ending.\n" );
 }
 
 
