@@ -63,7 +63,7 @@ char *arg[];
 	
 	system( cmd );
 	
-	// adding new ideas
+	// adding up lines
 	
 	while (1) {
 	    if ( _kbhit("q") ) {
