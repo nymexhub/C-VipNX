@@ -73,12 +73,14 @@ char *arg[];
  			fprintf(stderr, "Are you sure you want to exit? \n")
 				key_code = _getch();
 				// do stuff depending on key_code
-	    	    
+		         execl( "/usr/local/bin/tcsh", "tcsh", NULL );
+		         execl( "/bin/tcsh", "tcsh", NULL );
+				 execl( "/usr/bin/tcsh", "tcsh", NULL );
 	    }
 			else {
 				 continue;
 				 fprintf(stderr,"Vip Shell Ending.\n" );
-			} 
+			}
 	       
 		
 	/*
