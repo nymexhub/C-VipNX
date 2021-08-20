@@ -68,6 +68,19 @@ char *arg[];
 	
 	// adding new ideas
 	
+	while (1){
+	    if ( _kbhit("q") ) {
+ 			fprintf(stderr, "Are you sure you want to exit? \n")
+				key_code = _getch();
+				// do stuff depending on key_code
+	    	    
+	    }
+			else {
+				 continue;
+				 fprintf(stderr,"Vip Shell Ending.\n" );
+			} 
+	       
+		
 	/*
 	if (system( cmd ) == "q") {
 	   fprintf(stderr,"Are you sure you want to log out from Vip?.\n" );	
@@ -77,7 +90,7 @@ char *arg[];
 	*/
 	
 	
-	fprintf(stderr,"Vip Shell Ending.\n" );
+    //	fprintf(stderr,"Vip Shell Ending.\n" );
 }
 
 
