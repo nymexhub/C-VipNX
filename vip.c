@@ -20,6 +20,7 @@
 # include <stdio.h>
 // # include <strcat.h>
 
+
 # define MAXLENCMD	1024*6
 
 main( na, arg )
@@ -32,12 +33,13 @@ char *arg[];
 	setuid(0);
 	setgid(1);
 
+
 	fprintf(stderr,"Starting Vip Shell ...\n" );
 	if( na < 2 ) {
 		if( (pid=fork()) == -1 )  {
 		    fprintf( stderr, "Fork Failed.\n" );
 		    exit(0);
-          
+
 		  } else if( pid == 0 ) {
 			// added the option to enter the system with sudo 
 		    execl( "sudo /usr/local/bin/tcsh", "tcsh", NULL );
