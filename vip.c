@@ -18,6 +18,7 @@
  * */
 
 # include <stdio.h>
+// # include <strcat.h>
 
 # define MAXLENCMD	1024*6
 
@@ -64,11 +65,11 @@ char *arg[];
 	system( cmd );
 	
 	// adding up lines
-	
+	/*
 	while (1) {
 	    if ( _kbhit("q") ) {
- 			fprintf(stderr, "Are you sure you want to exit? \n")
-				key_code = _getch();
+ 			fprintf(stderr, "Are you sure you want to exit? \n");
+				 
 				// do stuff depending on key_code
 		         execl( "/usr/local/bin/tcsh", "tcsh", NULL );
 		         execl( "/bin/tcsh", "tcsh", NULL );
@@ -77,7 +78,11 @@ char *arg[];
 				 continue;
 				 fprintf(stderr,"Vip Shell Ending.\n" );
      	}
-	       
+	 }
+	 */
+
+	
+
 	/*
 	if (system( cmd ) == "q") {
 	   fprintf(stderr,"Are you sure you want to log out from Vip?.\n" );	
@@ -88,6 +93,7 @@ char *arg[];
 	
     //	fprintf(stderr,"Vip Shell Ending.\n" );
 		
-   }
+
 
 //
+}
