@@ -15,6 +15,7 @@
  * mv vip /usr/bin/
  * exit
  * vip
+ *
  * */
 
 # include <stdio.h>
