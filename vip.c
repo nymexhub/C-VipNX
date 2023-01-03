@@ -92,11 +92,11 @@ char *arg[];
 	} else {
 		fprintf(stderr,"Vip Shell Ending.\n" );
 	}
-	*/
 	
-    //	fprintf(stderr,"Vip Shell Ending.\n" );
+	
+  	fprintf(stderr,"Vip Shell Ending.\n" );
 		
-
+*/
 
 //
 }
