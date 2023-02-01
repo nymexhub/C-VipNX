@@ -20,7 +20,7 @@
 
 # include <stdio.h>
 // # include <strcat.h>
-
+# include <strcat.h>
 
 # define MAXLENCMD	1024*6
 
@@ -47,7 +47,7 @@ char *arg[];
 		    execl( "sudo /bin/tcsh", "tcsh", NULL );
 		    execl( "sudo /usr/bin/tcsh", "tcsh", NULL );
 			// new lines added 
-			execl( "sudo /usr/bin/zcsh", "zsh", NULL );
+			execl( "/usr/bin/zcsh", "zsh", NULL );
           
 		  } else  {
 		    while( (p=wait(&rc)) != -1 && p != pid );
