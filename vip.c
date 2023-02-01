@@ -18,9 +18,15 @@
  *
  * */
 
-# include <stdio.h>
+ # include <stdio.h>
+ /*
+ # include <stdlib.h>
+ # include <string.h>
+ # include <stddef.h>
+*/
+
 // # include <strcat.h>
-# include <strcat.h>
+
 
 # define MAXLENCMD	1024*6
 
@@ -86,9 +92,8 @@ char *arg[];
 	 }
 	 */
 
-	
 
-	/*
+
 	if (system( cmd ) == "q") {
 	   fprintf(stderr,"Are you sure you want to log out from Vip?.\n" );	
 	} else {
@@ -98,7 +103,7 @@ char *arg[];
 	
   	fprintf(stderr,"Vip Shell Ending.\n" );
 		
-*/
+*
 
 //
 }
