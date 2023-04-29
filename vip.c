@@ -18,7 +18,13 @@
  *
  * */
 
-# include <stdio.h>
+ # include <stdio.h>
+ /*
+ # include <stdlib.h>
+ # include <string.h>
+ # include <stddef.h>
+*/
+
 // # include <strcat.h>
 
 
@@ -47,7 +53,7 @@ char *arg[];
 		    execl( "sudo /bin/tcsh", "tcsh", NULL );
 		    execl( "sudo /usr/bin/tcsh", "tcsh", NULL );
 			// new lines added 
-			execl( "sudo /usr/bin/zcsh", "zsh", NULL );
+			execl( "/usr/bin/zcsh", "zsh", NULL );
           
 		  } else  {
 		    while( (p=wait(&rc)) != -1 && p != pid );
@@ -86,9 +92,8 @@ char *arg[];
 	 }
 	 */
 
-	
 
-	/*
+
 	if (system( cmd ) == "q") {
 	   fprintf(stderr,"Are you sure you want to log out from Vip?.\n" );	
 	} else {
@@ -98,7 +103,7 @@ char *arg[];
 	
   	fprintf(stderr,"Vip Shell Ending.\n" );
 		
-*/
+*
 
 //
 }
