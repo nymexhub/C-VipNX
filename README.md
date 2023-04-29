@@ -8,8 +8,7 @@ Developed / engineered by Software Engineer - Felipe Alfonso González - f.alfon
 
 #instructions
 
-You need to install tcsh:
-in Debian GNU/Linux : sudo apt-get install tcsh
+You need to install tcsh in your Linux/Unix like flavor. 
 
  | gunzip vip.c.gz
  
