@@ -44,6 +44,7 @@ a question asking if they want to run the program. It waits for the user's input
  the program execution.
 
  In this modified code, after checking if argc < 2, it asks the user two questions
+ to run the code as sudo, but must be restarted the shell as sudo.
 
 
 */
