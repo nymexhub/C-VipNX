@@ -42,6 +42,10 @@ In this modified code, after checking if argc < 2, it prompts the user with
 a question asking if they want to run the program. It waits for the user's input
  (either 'Y' or 'y' for yes), and if the input is not 'Y' or 'y', it aborts 
  the program execution.
+
+ In this modified code, after checking if argc < 2, it asks the user two questions
+
+
 */
 
 #include <stdio.h>
@@ -63,15 +67,27 @@ int main(int argc, char *argv[]) {
     fprintf(stderr, "Starting Vip Shell ...\n");
 
     if (argc < 2) {
-        if (!isSudo) {
-            char choice;
-            printf("Are you sure you want to run the program? (Y/N): ");
-            scanf(" %c", &choice);
+        char runChoice;
+        printf("Do you want to run the program? (Y/N): ");
+        scanf(" %c", &runChoice);
 
-            if (choice != 'Y' && choice != 'y') {
-                fprintf(stderr, "Program execution aborted.\n");
+        if (runChoice != 'Y' && runChoice != 'y') {
+            fprintf(stderr, "Program execution aborted.\n");
+            exit(1);
+        }
+
+        char sudoChoice;
+        printf("Do you want to run the program with sudo? (Y/N): ");
+        scanf(" %c", &sudoChoice);
+
+        if (sudoChoice == 'Y' || sudoChoice == 'y') {
+            if (!isSudo) {
+                printf("Please restart the program with sudo.\n");
                 exit(1);
             }
+        } else {
+            fprintf(stderr, "Program execution aborted.\n");
+            exit(1);
         }
 
         if ((pid = fork()) == -1) {
@@ -107,4 +123,5 @@ int main(int argc, char *argv[]) {
 
     return 0;
 }
+
 
