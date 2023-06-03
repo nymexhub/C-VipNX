@@ -24,10 +24,9 @@ If you like my project, give it a :star: or support me by buying me a coffee :co
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
     - [To Run it](#to-run)
-    - [To Host](#to-host)
+    - [Instructions](#to-host)
 - [Instructions](#instructions)
   - [File Structure](#file-structure)
-- [Deployment](#deployment)
 - [Contributing](#contributing)
 - [Creator / Maintainer](#creator--maintainer)
 - [Additional Information](#additional-information)
@@ -38,7 +37,7 @@ If you like my project, give it a :star: or support me by buying me a coffee :co
 
 Get a raspberry pi pico w 2 - wifi. Get a usb - micro-c cable and get thonny IDE.
 
-![Raspberry Pi Pico](readme-files/ScreenShot_2023-06-03_at_01.15.22.jpg)
+![Raspberry Pi Pico](readme-files/ScreenShot_2023-06-03_at_01.15.22.png)
 
 ### Prerequisites
 
@@ -75,15 +74,12 @@ vip     ALL=(ALL:ALL) ALL
 execute it as a user:
  sudo vip
 
-
 ### File Structure
 
 ```
  |-- vip.c
  |-- vip
 ```
-
-
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Please make sure to update tests as appropriate. But i would prefer if you could contact me first. 
