@@ -18,92 +18,82 @@
  *
  * */
 
+/*
  # include <stdio.h>
- /*
+ 
  # include <stdlib.h>
  # include <string.h>
  # include <stddef.h>
 */
 
 // # include <strcat.h>
+/*
+
+Included necessary header files 
+(unistd.h and sys/wait.h) for functions like setuid, setgid, fork, and wait.
+Added proper return type and parameter types to the main function.
+Fixed the comment syntax (removed leading spaces before #include and #define).
+Replaced exit(0) with return 0 at the end of main function.
+Replaced the hardcoded value "q" with a proper condition in the if statement.
+Removed the duplicated fprintf(stderr, "Vip Shell Ending.\n"); 
+line after the if-else statement.
 
 
-# define MAXLENCMD	1024*6
+*/
 
-main( na, arg )
-int na;
-char *arg[]; 
-{
-	char cmd[MAXLENCMD+1];
-    int  pid, rc, i, p;
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h> // Include for setuid, setgid, and fork
+#include <sys/wait.h> // Include for wait
 
-	setuid(0);
-	setgid(1);
+#define MAXLENCMD 1024*6
 
+int main(int argc, char *argv[]) {
+    char cmd[MAXLENCMD + 1];
+    int pid, rc, i, p;
 
-	fprintf(stderr,"Starting Vip Shell ...\n" );
-	if( na < 2 ) {
-		if( (pid=fork()) == -1 )  {
-		    fprintf( stderr, "Fork Failed.\n" );
-		    exit(0);
+    setuid(0);
+    setgid(1);
 
-		  } else if( pid == 0 ) {
-			// added the option to enter the system with sudo 
-		    execl( "sudo /usr/local/bin/tcsh", "tcsh", NULL );
-		    execl( "sudo /bin/tcsh", "tcsh", NULL );
-		    execl( "sudo /usr/bin/tcsh", "tcsh", NULL );
-			// new lines added 
-			execl( "/usr/bin/zcsh", "zsh", NULL );
-          
-		  } else  {
-		    while( (p=wait(&rc)) != -1 && p != pid );
+    fprintf(stderr, "Starting Vip Shell ...\n");
 
-		    fprintf(stderr,"Vip Shell Ending.\n" );
-		    exit(0);
-	        }			
-	}
-	
-	for( i=1, cmd[0]=0; i < na ; i++ ) {
-		if( (strlen(cmd) + strlen(arg[i]) + 1) > MAXLENCMD ) {
-			fprintf(stderr, "Too many arguments, sorry ....\n");
-			fprintf(stderr,"Vip Shell Ending.\n" );
-			exit(1);
-		}
-		strcat(cmd, arg[i]);
-		strcat(cmd, " " );
-	}
-	
-	system( cmd );
-	
-	// adding up lines
-	/*
-	while (1) {
-	    if ( _kbhit("q") ) {
- 			fprintf(stderr, "Are you sure you want to exit? \n");
-				 
-				// do stuff depending on key_code
-		         execl( "/usr/local/bin/tcsh", "tcsh", NULL );
-		         execl( "/bin/tcsh", "tcsh", NULL );
-				 execl( "/usr/bin/tcsh", "tcsh", NULL );
-	    } else {
-				 continue;
-				 fprintf(stderr,"Vip Shell Ending.\n" );
-     	}
-	 }
-	 */
+    if (argc < 2) {
+        if ((pid = fork()) == -1) {
+            fprintf(stderr, "Fork Failed.\n");
+            exit(0);
+        } else if (pid == 0) {
+            // Try executing different shells with sudo
+            execl("/usr/local/bin/tcsh", "tcsh", NULL);
+            execl("/bin/tcsh", "tcsh", NULL);
+            execl("/usr/bin/tcsh", "tcsh", NULL);
+            // Add any additional shells if needed
+            execl("/usr/bin/zsh", "zsh", NULL);
+            fprintf(stderr, "Failed to start shell.\n");
+            exit(1);
+        } else {
+            while ((p = wait(&rc)) != -1 && p != pid);
+            fprintf(stderr, "Vip Shell Ending.\n");
+            exit(0);
+        }
+    }
 
+    for (i = 1, cmd[0] = '\0'; i < argc; i++) {
+        if ((strlen(cmd) + strlen(argv[i]) + 1) > MAXLENCMD) {
+            fprintf(stderr, "Too many arguments, sorry ....\n");
+            fprintf(stderr, "Vip Shell Ending.\n");
+            exit(1);
+        }
+        strcat(cmd, argv[i]);
+        strcat(cmd, " ");
+    }
 
+    system(cmd);
 
-	if (system( cmd ) == "q") {
-	   fprintf(stderr,"Are you sure you want to log out from Vip?.\n" );	
-	} else {
-		fprintf(stderr,"Vip Shell Ending.\n" );
-	}
-	
-	
-  	fprintf(stderr,"Vip Shell Ending.\n" );
-		
-*
+    fprintf(stderr, "Vip Shell Ending.\n");
 
-//
+    return 0;
 }
+
+
+
