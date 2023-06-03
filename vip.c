@@ -38,20 +38,24 @@ Replaced the hardcoded value "q" with a proper condition in the if statement.
 Removed the duplicated fprintf(stderr, "Vip Shell Ending.\n"); 
 line after the if-else statement.
 
-
+In this modified code, after checking if argc < 2, it prompts the user with 
+a question asking if they want to run the program. It waits for the user's input
+ (either 'Y' or 'y' for yes), and if the input is not 'Y' or 'y', it aborts 
+ the program execution.
 */
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <unistd.h> // Include for setuid, setgid, and fork
-#include <sys/wait.h> // Include for wait
+#include <unistd.h>
+#include <sys/wait.h>
 
 #define MAXLENCMD 1024*6
 
 int main(int argc, char *argv[]) {
     char cmd[MAXLENCMD + 1];
     int pid, rc, i, p;
+    int isSudo = geteuid() == 0;
 
     setuid(0);
     setgid(1);
@@ -59,15 +63,24 @@ int main(int argc, char *argv[]) {
     fprintf(stderr, "Starting Vip Shell ...\n");
 
     if (argc < 2) {
+        if (!isSudo) {
+            char choice;
+            printf("Are you sure you want to run the program? (Y/N): ");
+            scanf(" %c", &choice);
+
+            if (choice != 'Y' && choice != 'y') {
+                fprintf(stderr, "Program execution aborted.\n");
+                exit(1);
+            }
+        }
+
         if ((pid = fork()) == -1) {
             fprintf(stderr, "Fork Failed.\n");
-            exit(0);
+            exit(1);
         } else if (pid == 0) {
-            // Try executing different shells with sudo
             execl("/usr/local/bin/tcsh", "tcsh", NULL);
             execl("/bin/tcsh", "tcsh", NULL);
             execl("/usr/bin/tcsh", "tcsh", NULL);
-            // Add any additional shells if needed
             execl("/usr/bin/zsh", "zsh", NULL);
             fprintf(stderr, "Failed to start shell.\n");
             exit(1);
@@ -94,6 +107,4 @@ int main(int argc, char *argv[]) {
 
     return 0;
 }
-
-
 
