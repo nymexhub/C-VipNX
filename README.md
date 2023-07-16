@@ -1,5 +1,6 @@
 # C-VipNX
 Shell Vip Utility written in C for *NX Systems
+Simple: Vip shell to avoid usage of sudo
 
 ![Version 1.0.0](https://img.shields.io/badge/version-v1.0.0-blue)
 [![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/Naereen/badges/)
@@ -10,13 +11,6 @@ Shell Vip Utility written in C for *NX Systems
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 [![GPL license](https://img.shields.io/badge/License-GPL-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
 
-Simple: Vip shell to avoid usage of sudo
-
-By Computer Science Engineer: Felipe A. Gonzalez <f.alfonso@res-ear.ch>
-
-If you like my project, give it a :star: or support me by buying me a coffee :coffee::grinning:
-
-<a href="https://www.buymeacoffee.com/felipealfonsog" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 27px !important;width: 114px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
 ### Table of Contents
 
