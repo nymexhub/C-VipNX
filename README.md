@@ -1,6 +1,9 @@
-# C-VipNX
+nsog# C-VipNX
 Shell Vip Utility written in C for *NX Systems
 Simple: Vip shell to avoid usage of sudo
+
+![Version](https://img.shields.io/github/release/NymexData/C-VipNX.svg?style=flat&color=blue)
+
 
 ![Version 1.0.0](https://img.shields.io/badge/version-v1.0.0-blue)
 [![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/Naereen/badges/)
