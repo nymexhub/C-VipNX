@@ -1,8 +1,6 @@
 # Shell Vip Utility written in C for *NX Systems
 
 ![Version 1.0.0](https://img.shields.io/badge/version-v1.0.0-blue)
-[![Linux](https://svgshare.com/i/Zhy.svg)](https://svgshare.com/i/Zhy.svg)
-[![macOS](https://svgshare.com/i/ZjP.svg)](https://svgshare.com/i/ZjP.svg)
 [![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/Naereen/badges/)
 
 [![Vim](https://img.shields.io/badge/--019733?logo=vim)](https://www.vim.org/)
