@@ -13,9 +13,7 @@ Simple: Vip shell to avoid usage of sudo
 
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
-    - [To Run it](#to-run)
-    - [Instructions](#to-host)
-- [Instructions](#instructions)
+  - [Instructions](#instructions)
   - [File Structure](#file-structure)
 - [Contributing](#contributing)
 - [Creator / Maintainer](#creator--maintainer)
