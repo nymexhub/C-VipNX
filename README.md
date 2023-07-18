@@ -29,8 +29,7 @@ Simple: Vip shell to avoid usage of sudo
 
 ### Prerequisites
 
-## To Run it
-instructions:
+## Instructions
 
 You need to install tcsh in your Linux/Unix like flavor. 
 
