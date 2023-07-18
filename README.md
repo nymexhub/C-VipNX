@@ -1,4 +1,4 @@
-nsog# C-VipNX
+# C-VipNX
 Shell Vip Utility written in C for *NX Systems
 Simple: Vip shell to avoid usage of sudo
 
