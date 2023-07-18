@@ -27,7 +27,7 @@ Simple: Vip shell to avoid usage of sudo
 
 ### Prerequisites
 
-## Instructions
+#### Instructions
 
 You need to install tcsh in your Linux/Unix like flavor. 
 
@@ -43,7 +43,7 @@ You need to install tcsh in your Linux/Unix like flavor.
  | #
 
 
-### User privilege specification
+#### User privilege specification
 root    ALL=(ALL:ALL) ALL
  
 vip     ALL=(ALL:ALL) ALL
@@ -58,17 +58,17 @@ vip     ALL=(ALL:ALL) ALL
 execute it as a user:
  sudo vip
 
-### File Structure
+#### File Structure
 
 ```
  |-- vip.c
  |-- vip
 ```
-### Contributing
+#### Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Please make sure to update tests as appropriate. But i would prefer if you could contact me first. 
 
-### How To Contribute
+#### How To Contribute
 
 1. Fork the repository to your own Github account.
 2. Clone the project to your machine.
@@ -96,7 +96,7 @@ git clone -b <branchname> <remote-repo-url>
 
 ---
 
-### Creator / Maintainer
+#### Creator / Maintainer
 Computer Science Engineer:
 Felipe Alfonso González L. ([felipealfonsog](https://github.com/felipealfonsog))
 
@@ -118,12 +118,12 @@ If you like my content or find this code useful, give it a :star: or support me 
 
 ---
 
-### Additional Information
+#### Additional Information
 
 - [brew](https://brew.io/)
 - [GCC](#)
 
-### Powered by
+#### Powered by
 [![Vim](https://img.shields.io/badge/--019733?logo=vim)](https://www.vim.org/)
 [![Visual Studio Code](https://img.shields.io/badge/--007ACC?logo=visual%20studio%20code&logoColor=ffffff)](https://code.visualstudio.com/)
 
