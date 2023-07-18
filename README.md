@@ -23,7 +23,7 @@ Simple: Vip shell to avoid usage of sudo
 
 ---
 
-## Getting Started
+### Getting Started
 
 ![Raspberry Pi Pico](readme-files/ScreenShot_2023-06-03_at_01.15.22.png)
 
@@ -47,7 +47,7 @@ You need to install tcsh in your Linux/Unix like flavor.
  | #
 
 
-# User privilege specification
+### User privilege specification
 root    ALL=(ALL:ALL) ALL
  
 vip     ALL=(ALL:ALL) ALL
@@ -68,7 +68,7 @@ execute it as a user:
  |-- vip.c
  |-- vip
 ```
-## Contributing
+### Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Please make sure to update tests as appropriate. But i would prefer if you could contact me first. 
 
@@ -122,12 +122,12 @@ If you like my content or find this code useful, give it a :star: or support me 
 
 ---
 
-## Additional Information
+### Additional Information
 
 - [brew](https://brew.io/)
 - [GCC](#)
 
-## Powered by
+### Powered by
 [![Vim](https://img.shields.io/badge/--019733?logo=vim)](https://www.vim.org/)
 [![Visual Studio Code](https://img.shields.io/badge/--007ACC?logo=visual%20studio%20code&logoColor=ffffff)](https://code.visualstudio.com/)
 
