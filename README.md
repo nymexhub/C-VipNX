@@ -107,9 +107,7 @@ Felipe Alfonso González L. ([felipealfonsog](https://github.com/felipealfonsog)
 If you have any questions, comments, or concerns, feel free to contact me by Email [f.alfonso@res-ear.ch](mailto:f.alfonso@res-ear.ch).
 
 
-This project was created for educational purposes of learning development, documentation, and deployment and for personal and open-source use.
-
-Licence: GNU/GPL & MIT
+#### Support
 
 If you like my content or find this code useful, give it a :star: or support me by buying me a coffee :coffee::grinning:
 
@@ -127,4 +125,6 @@ If you like my content or find this code useful, give it a :star: or support me 
 
 [![Vim](https://img.shields.io/badge/--019733?logo=vim)](https://www.vim.org/)
 [![Visual Studio Code](https://img.shields.io/badge/--007ACC?logo=visual%20studio%20code&logoColor=ffffff)](https://code.visualstudio.com/)
+
+This project was created for educational purposes of learning development, documentation, and deployment and for personal and open-source use.
 
