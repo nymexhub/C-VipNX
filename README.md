@@ -126,5 +126,4 @@ If you like my content or find this code useful, give it a :star: or support me 
 [![Vim](https://img.shields.io/badge/--019733?logo=vim)](https://www.vim.org/)
 [![Visual Studio Code](https://img.shields.io/badge/--007ACC?logo=visual%20studio%20code&logoColor=ffffff)](https://code.visualstudio.com/)
 
-This project was created for educational purposes of learning development, documentation, and deployment and for personal and open-source use.
 
