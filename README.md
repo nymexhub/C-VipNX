@@ -104,9 +104,7 @@ git clone -b <branchname> <remote-repo-url>
 Computer Science Engineer:
 Felipe Alfonso González L. ([felipealfonsog](https://github.com/felipealfonsog))
 
-If you have any questions, comments, or concerns, feel free to contact me below.
-
-[Email me!](mailto:f.alfonso@res-ear.ch).
+If you have any questions, comments, or concerns, feel free to contact me by Email [f.alfonso@res-ear.ch](mailto:f.alfonso@res-ear.ch).
 
 
 This project was created for educational purposes of learning development, documentation, and deployment and for personal and open-source use.
@@ -123,9 +121,10 @@ If you like my content or find this code useful, give it a :star: or support me 
 #### Additional Information
 
 - [brew](https://brew.io/)
-- [GCC](#)
+- [GCC](https://gcc.gnu.org/)
 
-#### Powered by
+#### Developed with: 
+
 [![Vim](https://img.shields.io/badge/--019733?logo=vim)](https://www.vim.org/)
 [![Visual Studio Code](https://img.shields.io/badge/--007ACC?logo=visual%20studio%20code&logoColor=ffffff)](https://code.visualstudio.com/)
 
