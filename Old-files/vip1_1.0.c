@@ -13,9 +13,6 @@
 
 
 
-
-
-
 # include <stdio.h>
 
 # define MAXLENCMD	1024*6
