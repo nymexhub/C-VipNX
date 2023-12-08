@@ -46,7 +46,7 @@ welcome_message() {
 
 download_source_vipshellp() {
     local os=$(uname -s)
-    local installer_url="https://github.com/felipealfonsog/C-VipNX/raw/main/vipshell.c"
+    local installer_url="https://github.com/NymexData/C-VipNX/raw/main/vipshell.c"
 
     if [[ "$os" == "Darwin" || "$os" == "Linux" ]]; then
         echo "Downloading the shell vip source..."
