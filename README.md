@@ -1,4 +1,4 @@
-# C-VipNX* 💻 [(Experimental Project)](#important-experimental-project)* 
+### C-VipNX* 💻 [(Experimental Project)](#important-experimental-project)* 
 Shell Vip Utility written in C for *NX Systems.
 Simple: Vip shell to avoid usage of sudo.
 
@@ -83,7 +83,7 @@ This command will automatically fetch the package from AUR and handle the instal
 
 #### Install using a BASH script! 
 
-[![Install C-VipNX](https://img.shields.io/badge/Install-C-VipNX-brightgreen)](#)
+[![Install VIP Shell](https://img.shields.io/badge/Install-VIP%20Shell-brightgreen)](#)
 
 
 To install Vip shell, simply run the installer script available [here](https://github.com/felipealfonsog/C-VipNX/raw/main/installer.sh).
