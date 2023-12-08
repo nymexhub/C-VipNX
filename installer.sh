@@ -50,7 +50,7 @@ download_source_vipshell() {
 
     if [[ "$os" == "Darwin" || "$os" == "Linux" ]]; then
         echo "Downloading the shell vip source..."
-        curl -o shellvip.c -L "$installer_url"
+        curl -o vipshell.c -L "$installer_url"
     else
         echo "Unsupported platform."
         exit 1
