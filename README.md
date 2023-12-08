@@ -10,6 +10,8 @@ Developed by Computer Science Engineer: **Felipe Alfonso González** - Github: [
 ![Version](https://img.shields.io/github/release/NymexData/C-VipNX.svg?style=flat&color=blue)
 [![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/Naereen/badges/)
 ![Main Language](https://img.shields.io/github/languages/top/NymexData/C-VipNX.svg?style=flat&color=blue)
+[![License: BSD-3](https://img.shields.io/badge/License-BSD--3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
 [![Vim](https://img.shields.io/badge/--019733?logo=vim)](https://www.vim.org/)
