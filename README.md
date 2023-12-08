@@ -4,6 +4,12 @@ Simple: Vip shell to avoid usage of sudo.
 
 🚀 Welcome to VIP Shell, where simplicity meets power in your command line experience. VIP Shell is a sleek and interactive command line shell designed for users who crave efficiency and elegance. With its user-friendly interface, VIP Shell empowers you to navigate and execute commands seamlessly, providing a personalized and enjoyable interaction with your Unix-like environment. Whether you're a seasoned developer or a command line enthusiast, VIP Shell is your gateway to a sophisticated and efficient command line journey. Elevate your terminal experience with VIP Shell – where every command feels like a VIP moment! 💻✨
 
+Developed by Computer Science Engineer:
+**Felipe Alfonso González**
+Github: [github.com/felipealfonsog](https://github.com/felipealfonsog)
+Email: [f.alfonso@res-ear.ch](mailto:f.alfonso@res-ear.ch)
+
+
 ![Version](https://img.shields.io/github/release/NymexData/C-VipNX.svg?style=flat&color=blue)
 [![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/Naereen/badges/)
 ![Main Language](https://img.shields.io/github/languages/top/NymexData/C-VipNX.svg?style=flat&color=blue)
