@@ -82,11 +82,11 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 -For Development, use the development branch and then we can do a pull request to the main branch. use : git --help for swtiching ... e.g.:
 
 ```
-felipe@Felipes-MacBook-Air webserver-raspberry-pico % git branch development
-felipe@Felipes-MacBook-Air webserver-raspberry-pico % git branch        
+felipe@Felipes-MacBook-Air % git branch development
+felipe@Felipes-MacBook-Air % git branch        
   development
   * main
-felipe@Felipes-MacBook-Air webserver-raspberry-pico % git checkout development
+felipe@Felipes-MacBook-Air % git checkout development
 ```
 
 When git push for 'development':
