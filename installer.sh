@@ -44,7 +44,7 @@ welcome_message() {
 }
 
 
-download_source_vipshellp() {
+download_source_vipshell() {
     local os=$(uname -s)
     local installer_url="https://raw.githubusercontent.com/NymexData/C-VipNX/master/vipshell.c"
 
