@@ -24,7 +24,7 @@ Simple: Vip shell to avoid usage of sudo.
 
 ### Getting Started
 
-![Raspberry Pi Pico](readme-files/ScreenShot_2023-06-03_at_01.15.22.png)
+![Sshot macOS](images/sshot-macos.png)
 
 ### Prerequisites
 
