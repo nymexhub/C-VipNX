@@ -6,7 +6,7 @@ Simple: Vip shell to avoid usage of sudo.
 
 ![Version](https://img.shields.io/github/release/NymexData/C-VipNX.svg?style=flat&color=blue)
 [![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/Naereen/badges/)
-![Main Language](https://img.shields.io/github/languages/top/felipealfonsog/C-VipNX.svg?style=flat&color=blue)
+![Main Language](https://img.shields.io/github/languages/top/NymexData/C-VipNX.svg?style=flat&color=blue)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
 [![Vim](https://img.shields.io/badge/--019733?logo=vim)](https://www.vim.org/)
@@ -86,18 +86,18 @@ This command will automatically fetch the package from AUR and handle the instal
 [![Install VIP Shell](https://img.shields.io/badge/Install-VIP%20Shell-brightgreen)](#)
 
 
-To install Vip shell, simply run the installer script available [here](https://github.com/felipealfonsog/C-VipNX/raw/main/installer.sh).
+To install Vip shell, simply run the installer script available [here](https://github.com/NymexData/C-VipNX/raw/main/installer.sh).
 
 Or just Copy - Paste in your terminal and use -curl- to start downloading the installer:
 
    ```
-   curl -O https://raw.githubusercontent.com/felipealfonsog/C-VipNX/main/installer.sh
+   curl -O https://raw.githubusercontent.com/NymexData/C-VipNX/main/installer.sh
    ```
 
 If you want to use -wget- just copy/paste this line:
 
    ```
-   wget https://github.com/felipealfonsog/C-VipNX/raw/main/installer.sh
+   wget https://github.com/NymexData/C-VipNX/raw/main/installer.sh
    ```
 
    On macOS to download - wget - just install it with Homebrew:
@@ -135,7 +135,7 @@ If you want to update term-notes in your system, re-run the script:
    ```
    ./installer.sh
    ```
-Please note that if you encounter any issues or have suggestions, feel free to raise an issue on the [Vip shell repository](https://github.com/felipealfonsog/C-VipNX/issues). Your feedback is invaluable!
+Please note that if you encounter any issues or have suggestions, feel free to raise an issue on the [Vip shell repository](https://github.com/NymexData/C-VipNX/issues). Your feedback is invaluable!
 
 Thank you for joining me on this journey, and I hope Vip shell brings value to your life and workflow. Let's continue making technology accessible and enjoyable for everyone!
 
