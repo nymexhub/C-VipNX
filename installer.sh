@@ -1,29 +1,21 @@
 #!/bin/bash
 
-: '
-
-▒█░░▒█ ░▀░ █▀▀█ ▒█▀▀▀█ █░░█ █▀▀ █░░ █░░ 
-░▒█▒█░ ▀█▀ █░░█ ░▀▀▀▄▄ █▀▀█ █▀▀ █░░ █░░ 
-░░▀▄▀░ ▀▀▀ █▀▀▀ ▒█▄▄▄█ ▀░░▀ ▀▀▀ ▀▀▀ ▀▀▀
-
-
-*************************************************
-The VIP Shell provides a basic yet functional command-line 
-environment with added features for command history and file 
-tracking, enhancing the user experience in a Unix-like shell.
-*************************************************
-* Developed and engineered by:
-* Felipe Alfonso Gonzalez <f.alfonso@res-ear.ch>
-* Computer Science Engineer
-* Chile
-*************************************************
-* Important Notes:
-* - The application has been tested on Linux and macOS.
-* - For Windows, additional configurations may be required.
-* - Make sure to fulfill the prerequisites before running the application.
-* - For more information, please refer to the project documentation.
-*************************************************
-'
+# *************************************************
+# The VIP Shell provides a basic yet functional command-line 
+# environment with added features for command history and file 
+# tracking, enhancing the user experience in a Unix-like shell.
+# *************************************************
+# * Developed and engineered by:
+# * Felipe Alfonso Gonzalez <f.alfonso@res-ear.ch>
+# * Computer Science Engineer
+# * Chile
+# *************************************************
+# * Important Notes:
+# * - The application has been tested on Linux and macOS.
+# * - For Windows, additional configurations may be required.
+# * - Make sure to fulfill the prerequisites before running the application.
+# * - For more information, please refer to the project documentation.
+# *************************************************
 
 welcome_message() {
     echo
