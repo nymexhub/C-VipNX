@@ -100,13 +100,13 @@ To install Vip shell, simply run the installer script available [here](https://g
 Or just Copy - Paste in your terminal and use -curl- to start downloading the installer:
 
    ```
-   curl -O https://raw.githubusercontent.com/NymexData/C-VipNX/main/installer.sh
+   curl -O https://raw.githubusercontent.com/NymexData/C-VipNX/master/installer.sh
    ```
 
 If you want to use -wget- just copy/paste this line:
 
    ```
-   wget https://github.com/NymexData/C-VipNX/raw/main/installer.sh
+   wget https://raw.githubusercontent.com/NymexData/C-VipNX/master/installer.sh
    ```
 
    On macOS to download - wget - just install it with Homebrew:
