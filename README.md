@@ -66,7 +66,7 @@ Email: [f.alfonso@res-ear.ch](mailto:f.alfonso@res-ear.ch)
 #### Installation
 #### Via AUR using YAY
 
-[![AUR](https://img.shields.io/aur/version/vipshell)](https://aur.archlinux.org/packages/vipshell)
+[![AUR](https://img.shields.io/aur/version/vipshell.svg)](https://aur.archlinux.org/packages/vipshell)
 
 <!-- 
 [![AUR](https://img.shields.io/aur/version/vipshell.svg)](https://aur.archlinux.org/packages/vipshell)
