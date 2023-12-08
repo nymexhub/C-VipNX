@@ -1,14 +1,22 @@
-# C-VipNX
+# C-VipNX* 💻 [(Experimental Project)](#important-experimental-project)* 
 Shell Vip Utility written in C for *NX Systems.
 Simple: Vip shell to avoid usage of sudo.
 
+🚀 Welcome to VIP Shell, where simplicity meets power in your command line experience. VIP Shell is a sleek and interactive command line shell designed for users who crave efficiency and elegance. With its user-friendly interface, VIP Shell empowers you to navigate and execute commands seamlessly, providing a personalized and enjoyable interaction with your Unix-like environment. Whether you're a seasoned developer or a command line enthusiast, VIP Shell is your gateway to a sophisticated and efficient command line journey. Elevate your terminal experience with VIP Shell – where every command feels like a VIP moment! 💻✨
+
 ![Version](https://img.shields.io/github/release/NymexData/C-VipNX.svg?style=flat&color=blue)
 [![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/Naereen/badges/)
-
+![Main Language](https://img.shields.io/github/languages/top/felipealfonsog/C-VipNX.svg?style=flat&color=blue)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+
+[![Vim](https://img.shields.io/badge/--019733?logo=vim)](https://www.vim.org/)
+[![Visual Studio Code](https://img.shields.io/badge/--007ACC?logo=visual%20studio%20code&logoColor=ffffff)](https://code.visualstudio.com/)
+
 <!--
 [![GPL license](https://img.shields.io/badge/License-GPL-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
 -->
+
+<sub>* This is currently an experimental phase where the primary focus is on making the system functional and establishing a practical and logical pathway that aligns with both my vision and the project's goals. It might contain errors, bugs, etc. Many other non-core elements of the project are considered secondary.</sub>
 
 ### Table of Contents
 
@@ -26,13 +34,127 @@ Simple: Vip shell to avoid usage of sudo.
 
 ![Sshot macOS](images/sshot-macos.png)
 
+#### Key Features:
+
+- Command Execution:  Execute various shell commands by entering them in the command prompt. 
+
+- Change Directory (cd):  Change the current working directory using the cd command followed by the target directory. 
+
+- Command History:  Keep track of the last executed commands, accessible through the --last-commands option. 
+
+- File Tracking:  Record the paths of files related to each executed command, accessible through the --last-files option. 
+
+- Help Option (--vip-help):  Display a help message with information about available options and commands, including exit to end the VIP Shell. 
+
+- Sudo Privileges Check:  Request sudo privileges at the beginning of the program to ensure the execution of privileged commands. 
+
+- Exit Command:  Allow the user to exit the VIP Shell using the exit command. 
+
+- Clean and Readable Code:  Maintain a clean and readable code structure for easy modification and future development.
+
+
+
+#### Installation
+#### Via AUR using YAY
+
+[![AUR](https://img.shields.io/aur/version/vipshell)](https://aur.archlinux.org/packages/vipshell)
+
+<!-- 
+[![AUR](https://img.shields.io/aur/version/vipshell.svg)](https://aur.archlinux.org/packages/vipshell)
+-->
+
+<!-- 
+https://aur.archlinux.org/packages/vipshell
+-->
+
+Term PDF Viewer is available on AUR (Arch User Repository), and it can be installed using the `yay` package manager. Follow the steps below to install Term Notes:
+
+1. Make sure you have `yay` installed. If not, you can install it with the following command:
+   
+   ```
+   sudo pacman -S yay
+   ```
+   Once yay is installed, you can install Vip shell by running the following command:
+   
+   ```
+   yay -S vipshell
+   ```
+This command will automatically fetch the package from AUR and handle the installation process for you.
+
+#### Install using a BASH script! 
+
+[![Install C-VipNX](https://img.shields.io/badge/Install-C-VipNX-brightgreen)](#)
+
+
+To install Vip shell, simply run the installer script available [here](https://github.com/felipealfonsog/C-VipNX/raw/main/installer.sh).
+
+Or just Copy - Paste in your terminal and use -curl- to start downloading the installer:
+
+   ```
+   curl -O https://raw.githubusercontent.com/felipealfonsog/C-VipNX/main/installer.sh
+   ```
+
+If you want to use -wget- just copy/paste this line:
+
+   ```
+   wget https://github.com/felipealfonsog/C-VipNX/raw/main/installer.sh
+   ```
+
+   On macOS to download - wget - just install it with Homebrew:
+
+   ```
+   brew install wget
+   ```
+
+#### Important note when installing:
+
+If you encounter issues executing the file in the terminal, like this message "-bash: ./installer.sh: Permission denied", follow these simple steps to fix it:
+
+1. Open your terminal.
+2. Navigate to the directory where the installer script is located using the `cd` command.
+3. Run the following command to grant execute permission to the installer script:
+
+   ```
+   chmod +x installer.sh
+   ```
+   
+4. Now you can run the installer without any problems.
+
+   ```
+   ./installer.sh
+   ```
+   NOTE: The script will ask for -sudo permissions-. Just simply type in macOS your macOS user password, and in Linux your -sudo- password.
+
+Now type 'vipshell' in the terminal and enjoy using Vip shell! 😊🚀
+
+Feel free to reach out if you need any further assistance!
+
+#### Updating with the script: 
+If you want to update term-notes in your system, re-run the script:
+
+   ```
+   ./installer.sh
+   ```
+Please note that if you encounter any issues or have suggestions, feel free to raise an issue on the [Vip shell repository](https://github.com/felipealfonsog/C-VipNX/issues). Your feedback is invaluable!
+
+Thank you for joining me on this journey, and I hope Vip shell brings value to your life and workflow. Let's continue making technology accessible and enjoyable for everyone!
+
+
+#### 📝Important (Experimental Project)
+
+[![Experimental Project](https://img.shields.io/badge/Project-Type%3A%20Experimental-blueviolet)](#)
+
+VIP Shell invites you to redefine your terminal experience. Whether you're a developer, enthusiast, or curious user, dive into the future of terminal interactions with VIP Shell!
+
+<p>This project is still in its experimental stage and may have limitations in terms of features and compatibility. Use at your own discretion.</p>
+
+
+
 ### Prerequisites
 
 #### Instructions
 
 You need to install tcsh in your Linux/Unix like flavor. 
-
- | gunzip vip.c.gz
  
  | sudo gcc -o vip vip.c (compilation)
  
@@ -101,29 +223,28 @@ git clone -b <branchname> <remote-repo-url>
 ---
 
 #### Creator / Maintainer
+
 Computer Science Engineer:
 Felipe Alfonso González L. ([felipealfonsog](https://github.com/felipealfonsog))
 
 If you have any questions, comments, or concerns, feel free to contact me by Email [f.alfonso@res-ear.ch](mailto:f.alfonso@res-ear.ch).
 
 
-#### Support
+#### 🤝 Support and Contributions
 
-If you like my content or find this code useful, give it a :star: or support me by buying me a coffee :coffee::grinning:
+If you find this project helpful and would like to support its development, there are several ways you can contribute:
 
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-orange.svg)](https://www.buymeacoffee.com/felipealfonsog)
+- **Code Contributions**: If you're a developer, you can contribute by submitting pull requests with bug fixes, new features, or improvements. Feel free to fork the project and create your own branch to work on.
+- **Bug Reports and Feedback**: If you encounter any issues or have suggestions for improvement, please open an issue on the project's GitHub repository. Your feedback is valuable in making the project better.
+- **Documentation**: Improving the documentation is always appreciated. If you find any gaps or have suggestions to enhance the project's documentation, please let me know.
 
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-%E2%98%95-FFDD00?style=flat-square&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/felipealfonsog)
+[![PayPal](https://img.shields.io/badge/Donate%20with-PayPal-00457C?style=flat-square&logo=paypal&logoColor=white)](https://www.paypal.com/felipealfonsog)
+[![GitHub Sponsors](https://img.shields.io/badge/Sponsor%20me%20on-GitHub-%23EA4AAA?style=flat-square&logo=github-sponsors&logoColor=white)](https://github.com/sponsors/felipealfonsog)
 
----
+Your support and contributions are greatly appreciated! Thank you for your help in making this project better. If you need to mail me, this is the way: f.alfonso@res-ear.ch (I'm Felipe, the Computer Science Engineer behind this idea. Cheers!)
 
-#### Additional Information
+#### 📄 License
 
-- [brew](https://brew.io/)
-- [GCC](https://gcc.gnu.org/)
-
-#### Developed with: 
-
-[![Vim](https://img.shields.io/badge/--019733?logo=vim)](https://www.vim.org/)
-[![Visual Studio Code](https://img.shields.io/badge/--007ACC?logo=visual%20studio%20code&logoColor=ffffff)](https://code.visualstudio.com/)
-
+This project is licensed under the [MIT License](LICENSE).
 
