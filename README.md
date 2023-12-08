@@ -1,5 +1,5 @@
-### C-VipNX* 💻 [(Experimental Project)](#important-experimental-project)* 
-Shell Vip Utility written in C for *NX Systems.
+### C-VipNX (Vip Shell)* 💻 [(Experimental Project)](#important-experimental-project)* 
+Shell Vip or Vip Shell is a Utility written in C for *NX Systems.
 Simple: Vip shell to avoid usage of sudo.
 
 🚀 Welcome to VIP Shell, where simplicity meets power in your command line experience. VIP Shell is a sleek and interactive command line shell designed for users who crave efficiency and elegance. With its user-friendly interface, VIP Shell empowers you to navigate and execute commands seamlessly, providing a personalized and enjoyable interaction with your Unix-like environment. Whether you're a seasoned developer or a command line enthusiast, VIP Shell is your gateway to a sophisticated and efficient command line journey. Elevate your terminal experience with VIP Shell – where every command feels like a VIP moment! 💻✨
@@ -152,34 +152,26 @@ VIP Shell invites you to redefine your terminal experience. Whether you're a dev
 
 ### Prerequisites
 
-#### Instructions
+#### Instructions (compilation)
 
-You need to install tcsh in your Linux/Unix like flavor. 
+You need to install tcsh in your Linux/Unix like flavor (compilation). 
  
- | sudo gcc -o vip vip.c (compilation)
- 
- 
- | su
- 
- | vi /etc/group (nuevo grupo, ej.: staff:x:100:user
- | vim visudo
- | #
+ ```
+sudo gcc -o vipshell vipshell.c
+ ```
 
+ ```
+sudo vim /etc/group (nuevo grupo, ej.: staff:x:100:user
+ ```
 
-#### User privilege specification
+```
+vim visudo
+```
+
+```
 root    ALL=(ALL:ALL) ALL
- 
-vip     ALL=(ALL:ALL) ALL
- 
- | mv vip /usr/bin/
- 
- | exit
- 
- | vip
- 
- then,
-execute it as a user:
- sudo vip
+vipshell     ALL=(ALL:ALL) ALL
+ ```
 
 #### File Structure
 
@@ -187,6 +179,8 @@ execute it as a user:
  |-- vip.c
  |-- vip
 ```
+
+
 #### Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Please make sure to update tests as appropriate. But i would prefer if you could contact me first. 
